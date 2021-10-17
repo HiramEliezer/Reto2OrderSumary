@@ -1,0 +1,191 @@
+
+*
+{
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: 100%;
+    width: 100%;
+}
+
+.illustration
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 5px;
+    width: 370px;
+}
+
+.compra
+{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 30px 0 20px 0;
+}
+
+.info
+{
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    margin: 0 -28px 20px -28px;
+    border-radius: 7px;
+}
+
+#plan
+{
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 95px;
+}
+
+.well
+{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.well:hover
+{
+    text-decoration: none;
+}
+
+.well:active
+{
+    color: hsl(246, 24%, 56%);
+}
+
+.stilos
+{
+    font-weight: normal;
+    color: hsl(224, 23%, 55%);
+}
+
+.iniciar
+{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.borrar:hover
+{
+    color: rgb(99, 96, 96);
+}
+
+.borrar:active
+{
+    color: black;
+}
+
+.cancelar
+{
+    margin: 10px 0 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.compra, .info
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.musica
+{
+    width: 35px;
+    height: 35px;
+}
+
+.borrar
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: hsl(224, 23%, 55%);
+}
+
+
+
+.white
+{
+    background-color: white;
+    padding: 0 60px 0 60px;
+    margin-bottom: 5px;
+    margin-top: -9px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.posicion
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    width: 370px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.boton:hover
+{
+    background-color: hsl(245, 84%, 36%);
+}
+
+.boton:active
+{
+    background-color: rgb(117, 109, 241);
+}
+
+.boton
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: hsl(245, 75%, 52%);
+    padding: 1.2em;
+    margin: 0 -26px 0 -26px;
+    padding-right: 2px;
+    padding-left: 2px;
+    border-radius: 9px;
+    box-shadow: hsl(244deg 93% 91%) 0px 20px 16px -6px, rgb(255 255 255 / 80%) -6px -2px 16px 0px;
+}
+
+
+
+@media screen and (max-width: 780px)
+{
+
+    .posicion
+    {
+        background-image: none;
+        background-color:hsl(225, 100%, 94%);
+    }
+}
